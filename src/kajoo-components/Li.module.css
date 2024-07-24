@@ -1,0 +1,288 @@
+.html-element {
+  color: rgb(101, 101, 101);
+  border: 0;
+  cursor: pointer;
+  height: 12em;
+  display: list-item;
+  position: relative;
+  font-size: 1.125rem;
+  border-top: 5px solid #005c84;
+  box-sizing: inherit;
+  font-style: inherit;
+  margin-top: 0.938rem;
+  text-align: left;
+  font-family: Roboto, Calibri, sans-serif;
+  font-weight: inherit;
+  line-height: 1.5em;
+  margin-left: 0px;
+  padding-top: 21px;
+  font-kerning: inherit;
+  font-stretch: inherit;
+  margin-right: 0px;
+  padding-left: 25px;
+  margin-bottom: 0.938rem;
+  padding-right: 25px;
+  padding-bottom: 20px;
+  vertical-align: baseline;
+  background-color: rgb(255, 255, 255);
+  border-top-color: rgb(0, 9, 58);
+  border-top-style: solid;
+  border-top-width: 5px;
+  border-left-color: rgb(229, 229, 229);
+  border-left-style: solid;
+  border-left-width: 2px;
+  font-variant-caps: inherit;
+  border-right-color: rgb(229, 229, 229);
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-bottom-color: rgb(229, 229, 229);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  font-optical-sizing: inherit;
+  font-variant-numeric: inherit;
+  font-feature-settings: inherit;
+  border-top-left-radius: 4px;
+  font-variant-ligatures: inherit;
+  border-top-right-radius: 4px;
+  font-variant-alternates: inherit;
+  font-variant-east-asian: inherit;
+  font-variation-settings: inherit;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.html-element:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.a {
+  color: rgb(0, 9, 58);
+  border: 0;
+  cursor: pointer;
+  font-size: inherit;
+  box-sizing: inherit;
+  font-style: inherit;
+  margin-top: 0px;
+  font-family: Roboto, Calibri, sans-serif;
+  font-weight: inherit;
+  line-height: inherit;
+  margin-left: 0px;
+  padding-top: 0px;
+  font-kerning: inherit;
+  font-stretch: inherit;
+  margin-right: 0px;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  vertical-align: baseline;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  font-variant-caps: inherit;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  font-optical-sizing: inherit;
+  font-variant-numeric: inherit;
+  text-decoration-line: none;
+  font-feature-settings: inherit;
+  font-variant-ligatures: inherit;
+  font-variant-alternates: inherit;
+  font-variant-east-asian: inherit;
+  font-variation-settings: inherit;
+}
+.a:hover,.a:focus {
+  color: rgb(0, 120, 160);
+}
+.a:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+  outline-offset: 1px;
+}
+.span {
+  color: rgb(0, 9, 58);
+  display: block;
+  font-size: 20px;
+  box-sizing: inherit;
+  font-weight: bold;
+  line-height: 1.2em;
+  margin-bottom: 10px;
+  text-decoration-line: underline;
+}
+.span:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.p {
+  color: rgb(101, 101, 101);
+  border: 0;
+  display: block;
+  font-size: 16px;
+  box-sizing: inherit;
+  font-style: inherit;
+  margin-top: 0px;
+  font-family: Roboto, Calibri, sans-serif;
+  font-weight: normal;
+  line-height: 1.5em;
+  margin-left: 0px;
+  padding-top: 0px;
+  font-kerning: inherit;
+  font-stretch: inherit;
+  margin-right: 0px;
+  padding-left: 0px;
+  margin-bottom: 8px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  text-rendering: optimizelegibility;
+  vertical-align: baseline;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  font-variant-caps: inherit;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  font-optical-sizing: inherit;
+  font-variant-numeric: inherit;
+  font-feature-settings: inherit;
+  font-variant-ligatures: inherit;
+  font-variant-alternates: inherit;
+  font-variant-east-asian: inherit;
+  font-variation-settings: inherit;
+}
+.p:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+
+@media(max-width: 768px) {
+  .html-element {
+    font-size: 1.125rem;
+  }
+}
+@media(max-width: 480px) {
+  .html-element {
+    color: rgb(101, 101, 101);
+    border: 0;
+    height: 12em;
+    display: list-item;
+    position: relative;
+    font-size: 1rem;
+    border-top: 5px solid #005c84;
+    margin-top: 0.938rem;
+    text-align: left;
+    line-height: 1.5em;
+    padding-top: 21px;
+    padding-left: 25px;
+    margin-bottom: 0.938rem;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    border-top-color: rgb(0, 9, 58);
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-left-color: rgb(229, 229, 229);
+    border-left-style: solid;
+    border-left-width: 2px;
+    font-variant-caps: inherit;
+    border-right-color: rgb(229, 229, 229);
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-bottom-color: rgb(229, 229, 229);
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    font-optical-sizing: inherit;
+    font-variant-numeric: inherit;
+    font-feature-settings: inherit;
+    border-top-left-radius: 4px;
+    font-variant-ligatures: inherit;
+    border-top-right-radius: 4px;
+    font-variant-alternates: inherit;
+    font-variant-east-asian: inherit;
+    font-variation-settings: inherit;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  .html-element,.a {
+    cursor: pointer;
+    box-sizing: inherit;
+    font-style: inherit;
+    font-family: Roboto, Calibri, sans-serif;
+    font-weight: inherit;
+    margin-left: 0px;
+    font-kerning: inherit;
+    font-stretch: inherit;
+    margin-right: 0px;
+    vertical-align: baseline;
+  }
+  .a {
+    color: rgb(0, 9, 58);
+    border: 0;
+    font-size: inherit;
+    margin-top: 0px;
+    line-height: inherit;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    font-variant-caps: inherit;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    font-optical-sizing: inherit;
+    font-variant-numeric: inherit;
+    text-decoration-line: none;
+    font-feature-settings: inherit;
+    font-variant-ligatures: inherit;
+    font-variant-alternates: inherit;
+    font-variant-east-asian: inherit;
+    font-variation-settings: inherit;
+  }
+  .span {
+    color: rgb(0, 9, 58);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+    text-decoration-line: underline;
+  }
+  .span,.p {
+    display: block;
+    box-sizing: inherit;
+  }
+  .p {
+    color: rgb(101, 101, 101);
+    border: 0;
+    font-size: 16px;
+    font-style: inherit;
+    margin-top: 0px;
+    font-family: Roboto, Calibri, sans-serif;
+    font-weight: normal;
+    line-height: 1.5em;
+    margin-left: 0px;
+    padding-top: 0px;
+    font-kerning: inherit;
+    font-stretch: inherit;
+    margin-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 8px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    text-rendering: optimizelegibility;
+    vertical-align: baseline;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    font-variant-caps: inherit;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    font-optical-sizing: inherit;
+    font-variant-numeric: inherit;
+    font-feature-settings: inherit;
+    font-variant-ligatures: inherit;
+    font-variant-alternates: inherit;
+    font-variant-east-asian: inherit;
+    font-variation-settings: inherit;
+  }
+}
