@@ -29,6 +29,12 @@ export default function (manifest) {
         type: CommonFieldTypes.SingleLineText,
         standardValue: 'default-kajoo-image',
       },
+      {
+        name: 'text1',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue:
+          'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
+      },
     ],
   })
 }

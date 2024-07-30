@@ -12,9 +12,7 @@ import styles from './DeploymentComponent.module.css'
 const DeploymentComponent = (props) => {
   return (
     <Container
-      className={` ${styles['deployment-component']} ${
-        styles[props.rootClassName]
-      } `}
+      className={` ${styles['deployment-component']} ${styles[props.rootClassName]} ${props.params?.Styles} `}
     >
       <Text text={props.fields.text} className={'paragraph-default'} />
       <Image
@@ -22,6 +20,7 @@ const DeploymentComponent = (props) => {
         alt={props.fields.alt}
         className={'image-default'}
       />
+      <Text text={props.fields.text1} className={'paragraph-default'} />
     </Container>
   )
 }
@@ -31,6 +30,8 @@ DeploymentComponent.defaultProps = {
     text: 'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
     src: 'https://app.kajoo.ai/icons/default-imag.svg',
     alt: 'default-kajoo-image',
+    text1:
+      'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
   },
   rootClassName: '',
   rendering: {},
